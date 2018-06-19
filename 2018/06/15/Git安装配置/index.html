@@ -14,29 +14,25 @@
     
     
     
-    <title>Sourcetree安装+配置+操作 | 知识课堂 | Livzon</title>
+    <title>Git安装配置 | 知识课堂 | Livzon</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
     <meta name="theme-color" content="#3F51B5">
     
     
     <meta name="keywords" content="Git">
-    <meta name="description" content="1.安装 Sourcetree官网地址下载安装包 自行百度安装教程  2.软件配置通过快捷键Shift+Ctrl+, 打开仓库设置界面                                                                                              仓库设置">
+    <meta name="description" content="安装Git程序+图形化界面+Gogs服务器搭建1.下载Git.exe安装包，通过廖雪峰的官方网站 学习Git安装跟配置！ 2.下载Tortoisegit.exe安装包 1TortoiseGit是一个开源的git版本控制系统的图形化客户端。主要用来对比以及处理文件差异。 3.下载Sourcetree .exe安装包 12345678SourceTree 是 Windows 和Mac OS X 下免费">
 <meta name="keywords" content="Git">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Sourcetree安装+配置+操作">
-<meta property="og:url" content="http://yoursite.com/2018/06/19/Sourcetree安装-配置-操作/index.html">
+<meta property="og:title" content="Git安装配置">
+<meta property="og:url" content="http://yoursite.com/2018/06/15/Git安装配置/index.html">
 <meta property="og:site_name" content="知识课堂">
-<meta property="og:description" content="1.安装 Sourcetree官网地址下载安装包 自行百度安装教程  2.软件配置通过快捷键Shift+Ctrl+, 打开仓库设置界面                                                                                              仓库设置">
+<meta property="og:description" content="安装Git程序+图形化界面+Gogs服务器搭建1.下载Git.exe安装包，通过廖雪峰的官方网站 学习Git安装跟配置！ 2.下载Tortoisegit.exe安装包 1TortoiseGit是一个开源的git版本控制系统的图形化客户端。主要用来对比以及处理文件差异。 3.下载Sourcetree .exe安装包 12345678SourceTree 是 Windows 和Mac OS X 下免费">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="c:/Users/ronnie/AppData/Local/Temp/1529387482535.png">
-<meta property="og:image" content="c:/Users/ronnie/AppData/Local/Temp/1529387830022.png">
-<meta property="og:image" content="c:/Users/ronnie/AppData/Local/Temp/1529387765989.png">
-<meta property="og:updated_time" content="2018-06-19T05:58:03.631Z">
+<meta property="og:updated_time" content="2018-06-19T06:12:48.590Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Sourcetree安装+配置+操作">
-<meta name="twitter:description" content="1.安装 Sourcetree官网地址下载安装包 自行百度安装教程  2.软件配置通过快捷键Shift+Ctrl+, 打开仓库设置界面                                                                                              仓库设置">
-<meta name="twitter:image" content="c:/Users/ronnie/AppData/Local/Temp/1529387482535.png">
+<meta name="twitter:title" content="Git安装配置">
+<meta name="twitter:description" content="安装Git程序+图形化界面+Gogs服务器搭建1.下载Git.exe安装包，通过廖雪峰的官方网站 学习Git安装跟配置！ 2.下载Tortoisegit.exe安装包 1TortoiseGit是一个开源的git版本控制系统的图形化客户端。主要用来对比以及处理文件差异。 3.下载Sourcetree .exe安装包 12345678SourceTree 是 Windows 和Mac OS X 下免费">
     
     <link rel="shortcut icon" href="/favicon.ico">
     <link rel="stylesheet" href="//unpkg.com/hexo-theme-material-indigo@latest/css/style.css">
@@ -94,7 +90,7 @@
         <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light on" id="menu-toggle">
           <i class="icon icon-lg icon-navicon"></i>
         </a>
-        <div class="flex-col header-title ellipsis">Sourcetree安装+配置+操作</div>
+        <div class="flex-col header-title ellipsis">Git安装配置</div>
         
         <div class="search-wrap" id="search-wrap">
             <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
@@ -116,11 +112,11 @@
 <header class="content-header post-header">
 
     <div class="container fade-scale">
-        <h1 class="title">Sourcetree安装+配置+操作</h1>
+        <h1 class="title">Git安装配置</h1>
         <h5 class="subtitle">
             
-                <time datetime="2018-06-19T12:04:47.000Z" itemprop="datePublished" class="page-time">
-  2018-06-19
+                <time datetime="2018-06-15T12:09:31.000Z" itemprop="datePublished" class="page-time">
+  2018-06-15
 </time>
 
 
@@ -139,18 +135,18 @@
     <aside class="post-widget">
         <nav class="post-toc-wrap post-toc-shrink" id="post-toc">
             <h4>TOC</h4>
-            <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#1-安装"><span class="post-toc-number">1.</span> <span class="post-toc-text">1.安装</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#2-软件配置"><span class="post-toc-number">2.</span> <span class="post-toc-text">2.软件配置</span></a></li></ol>
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#安装Git程序-图形化界面-Gogs服务器搭建"><span class="post-toc-number">1.</span> <span class="post-toc-text">安装Git程序+图形化界面+Gogs服务器搭建</span></a></li></ol>
         </nav>
     </aside>
 
 
-<article id="post-Sourcetree安装-配置-操作"
+<article id="post-Git安装配置"
   class="post-article article-type-post fade" itemprop="blogPost">
 
     <div class="post-card">
-        <h1 class="post-card-title">Sourcetree安装+配置+操作</h1>
+        <h1 class="post-card-title">Git安装配置</h1>
         <div class="post-meta">
-            <time class="post-time" title="2018-06-19 12:04:47" datetime="2018-06-19T12:04:47.000Z"  itemprop="datePublished">2018-06-19</time>
+            <time class="post-time" title="2018-06-15 12:09:31" datetime="2018-06-15T12:09:31.000Z"  itemprop="datePublished">2018-06-15</time>
 
             
 
@@ -163,32 +159,14 @@
 
         </div>
         <div class="post-content" id="post-content" itemprop="postContent">
-            <h2 id="1-安装"><a href="#1-安装" class="headerlink" title="1.安装"></a>1.安装</h2><ol>
-<li><a href="https://www.sourcetreeapp.com/" target="_blank" rel="noopener">Sourcetree官网地址</a>下载安装包</li>
-<li>自行百度安装教程</li>
-</ol>
-<h2 id="2-软件配置"><a href="#2-软件配置" class="headerlink" title="2.软件配置"></a>2.软件配置</h2><p>通过快捷键Shift+Ctrl+, 打开仓库设置界面</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="C:\Users\ronnie\AppData\Local\Temp\1529387482535.png" alt="仓库设置" title="">
-                </div>
-                <div class="image-caption">仓库设置</div>
-            </figure>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="C:\Users\ronnie\AppData\Local\Temp\1529387830022.png" alt="Git_gogs项目对应的仓库地址" title="">
-                </div>
-                <div class="image-caption">Git_gogs项目对应的仓库地址</div>
-            </figure>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="C:\Users\ronnie\AppData\Local\Temp\1529387765989.png" alt="仓库配置" title="">
-                </div>
-                <div class="image-caption">仓库配置</div>
-            </figure>
+            <h2 id="安装Git程序-图形化界面-Gogs服务器搭建"><a href="#安装Git程序-图形化界面-Gogs服务器搭建" class="headerlink" title="安装Git程序+图形化界面+Gogs服务器搭建"></a>安装Git程序+图形化界面+Gogs服务器搭建</h2><p>1.下载Git.exe安装包，通过<a href="https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/00137396287703354d8c6c01c904c7d9ff056ae23da865a000" target="_blank" rel="noopener">廖雪峰的官方网站 </a>学习Git安装跟配置！</p>
+<p>2.下载Tortoisegit.exe安装包</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">TortoiseGit是一个开源的git版本控制系统的图形化客户端。主要用来对比以及处理文件差异。</span><br></pre></td></tr></table></figure>
+<p>3.下载Sourcetree .exe安装包</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">SourceTree 是 Windows 和Mac OS X 下免费的 Git 和 Hg 客户端管理工具，同时也是Mercurial和Subversion版本控制系统工具。支持创建、克隆、提交、push、pull 和合并等操作。</span><br><span class="line">SourceTree拥有一个精美简洁的界面，大大简化了开发者与代码库之间的Git操作方式，这对于那些不熟悉Git命令的开发者来说非常实用。</span><br><span class="line">SourceTree拥有完整的Git功能：</span><br><span class="line">通过一个简单的用户界面即可使用所有的Git命令</span><br><span class="line">通过一次单击，即可管理所有的Git库，无论是托管的还是本地的</span><br><span class="line">通过一次单击，即可进行commit、push、pull、merge等操作</span><br><span class="line">一些先进的功能，如补丁处理、rebase、shelve、cherry picking等</span><br><span class="line">可以连接到你托管在Bitbucket、Stash、Microsoft TFS或GitHub中的代码库</span><br></pre></td></tr></table></figure>
+<p>4.搭建Gogs服务器</p>
+<p><code>通过[Gogs官网](https://gogs.io/)进行下载Gogs安装包，根据官网文档对Gogs服务器进行搭建！</code></p>
+<p><code>已完结</code></p>
 
         </div>
 
@@ -197,12 +175,12 @@
     <div class="content">
         
 <span class="post-time">
-    最后更新时间：<time datetime="2018-06-19T05:58:03.631Z" itemprop="dateUpdated">2018-06-19 05:58:03</time>
+    最后更新时间：<time datetime="2018-06-19T06:12:48.590Z" itemprop="dateUpdated">2018-06-19 06:12:48</time>
 </span><br>
 
 
         
-        这里可以写作者留言，标签和 hexo 中所有变量及辅助函数等均可调用，示例：<a href="/2018/06/19/Sourcetree安装-配置-操作/" target="_blank" rel="external">http://yoursite.com/2018/06/19/Sourcetree安装-配置-操作/</a>
+        这里可以写作者留言，标签和 hexo 中所有变量及辅助函数等均可调用，示例：<a href="/2018/06/15/Git安装配置/" target="_blank" rel="external">http://yoursite.com/2018/06/15/Git安装配置/</a>
         
     </div>
     
@@ -233,7 +211,7 @@
 <div class="page-share" id="pageShare">
     <ul class="reset share-icons">
       <li>
-        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://yoursite.com/2018/06/19/Sourcetree安装-配置-操作/&title=《Sourcetree安装+配置+操作》 — 知识课堂&pic=http://yoursite.com/img/avatar.jpg" data-title="微博">
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://yoursite.com/2018/06/15/Git安装配置/&title=《Git安装配置》 — 知识课堂&pic=http://yoursite.com/img/avatar.jpg" data-title="微博">
           <i class="icon icon-weibo"></i>
         </a>
       </li>
@@ -243,22 +221,22 @@
         </a>
       </li>
       <li>
-        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://yoursite.com/2018/06/19/Sourcetree安装-配置-操作/&title=《Sourcetree安装+配置+操作》 — 知识课堂&source=学习内容分享" data-title=" QQ">
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://yoursite.com/2018/06/15/Git安装配置/&title=《Git安装配置》 — 知识课堂&source=学习内容分享" data-title=" QQ">
           <i class="icon icon-qq"></i>
         </a>
       </li>
       <li>
-        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2018/06/19/Sourcetree安装-配置-操作/" data-title=" Facebook">
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2018/06/15/Git安装配置/" data-title=" Facebook">
           <i class="icon icon-facebook"></i>
         </a>
       </li>
       <li>
-        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《Sourcetree安装+配置+操作》 — 知识课堂&url=http://yoursite.com/2018/06/19/Sourcetree安装-配置-操作/&via=http://yoursite.com" data-title=" Twitter">
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《Git安装配置》 — 知识课堂&url=http://yoursite.com/2018/06/15/Git安装配置/&via=http://yoursite.com" data-title=" Twitter">
           <i class="icon icon-twitter"></i>
         </a>
       </li>
       <li>
-        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=http://yoursite.com/2018/06/19/Sourcetree安装-配置-操作/" data-title=" Google+">
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=http://yoursite.com/2018/06/15/Git安装配置/" data-title=" Google+">
           <i class="icon icon-google-plus"></i>
         </a>
       </li>
@@ -278,14 +256,21 @@
     </div>
 
     
-<nav class="post-nav flex-row flex-justify-between flex-row-reverse">
+<nav class="post-nav flex-row flex-justify-between">
+  
+    <div class="waves-block waves-effect prev">
+      <a href="/2018/06/19/Sourcetree安装-配置-操作/" id="post-prev" class="post-nav-link">
+        <div class="tips"><i class="icon icon-angle-left icon-lg icon-pr"></i> Prev</div>
+        <h4 class="title">Sourcetree安装+配置+操作</h4>
+      </a>
+    </div>
   
 
   
     <div class="waves-block waves-effect next">
-      <a href="/2018/06/15/Git安装配置/" id="post-next" class="post-nav-link">
+      <a href="/2018/06/15/Hexo操作手册/" id="post-next" class="post-nav-link">
         <div class="tips">Next <i class="icon icon-angle-right icon-lg icon-pl"></i></div>
-        <h4 class="title">Git安装配置</h4>
+        <h4 class="title">Hexo操作手册</h4>
       </a>
     </div>
   
@@ -380,7 +365,7 @@
 <div class="global-share" id="globalShare">
     <ul class="reset share-icons">
       <li>
-        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://yoursite.com/2018/06/19/Sourcetree安装-配置-操作/&title=《Sourcetree安装+配置+操作》 — 知识课堂&pic=http://yoursite.com/img/avatar.jpg" data-title="微博">
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://yoursite.com/2018/06/15/Git安装配置/&title=《Git安装配置》 — 知识课堂&pic=http://yoursite.com/img/avatar.jpg" data-title="微博">
           <i class="icon icon-weibo"></i>
         </a>
       </li>
@@ -390,22 +375,22 @@
         </a>
       </li>
       <li>
-        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://yoursite.com/2018/06/19/Sourcetree安装-配置-操作/&title=《Sourcetree安装+配置+操作》 — 知识课堂&source=学习内容分享" data-title=" QQ">
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://yoursite.com/2018/06/15/Git安装配置/&title=《Git安装配置》 — 知识课堂&source=学习内容分享" data-title=" QQ">
           <i class="icon icon-qq"></i>
         </a>
       </li>
       <li>
-        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2018/06/19/Sourcetree安装-配置-操作/" data-title=" Facebook">
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2018/06/15/Git安装配置/" data-title=" Facebook">
           <i class="icon icon-facebook"></i>
         </a>
       </li>
       <li>
-        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《Sourcetree安装+配置+操作》 — 知识课堂&url=http://yoursite.com/2018/06/19/Sourcetree安装-配置-操作/&via=http://yoursite.com" data-title=" Twitter">
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《Git安装配置》 — 知识课堂&url=http://yoursite.com/2018/06/15/Git安装配置/&via=http://yoursite.com" data-title=" Twitter">
           <i class="icon icon-twitter"></i>
         </a>
       </li>
       <li>
-        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=http://yoursite.com/2018/06/19/Sourcetree安装-配置-操作/" data-title=" Google+">
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=http://yoursite.com/2018/06/15/Git安装配置/" data-title=" Google+">
           <i class="icon icon-google-plus"></i>
         </a>
       </li>
@@ -416,7 +401,7 @@
 <div class="page-modal wx-share" id="wxShare">
     <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
-    <img src="//api.qrserver.com/v1/create-qr-code/?data=http://yoursite.com/2018/06/19/Sourcetree安装-配置-操作/" alt="微信分享二维码">
+    <img src="//api.qrserver.com/v1/create-qr-code/?data=http://yoursite.com/2018/06/15/Git安装配置/" alt="微信分享二维码">
 </div>
 
 
